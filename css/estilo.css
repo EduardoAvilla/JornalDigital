@@ -1,0 +1,82 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	
+
+} 
+
+#sec1{
+	display: flex;
+	flex-direction:row; 
+	flex-wrap: wrap;
+	 justify-content:space-between;
+	 align-items: flex-start;
+
+
+}
+#carouselExampleFade{
+
+max-width: 40%;
+	 
+  
+}
+#titulo1
+{
+ 	font-family: verdana;
+	text-align: center;
+
+
+
+ }
+
+
+#txt1{
+
+	max-width: 25%;
+	border: 1px solid gray;
+
+}
+
+#txt2{
+
+	max-width: 25%;
+	border: 1px solid gray;
+}
+
+
+@media (max-width: 500px ){
+
+#sec1{
+	display: flex;
+	flex-direction:column; 
+	flex-wrap: wrap;
+	 
+ 
+
+
+}
+
+
+#txt1{
+
+	margin-top: 70%;
+	max-width: 100%;
+	border: 1px solid gray;
+}
+
+#txt2{
+margin-top: 10%;
+	max-width: 100%;
+	border: 1px solid gray;
+}
+
+#carouselExampleFade{
+
+position: absolute;
+max-width: 100%;
+	 
+  
+}
+
+}
